@@ -1,0 +1,84 @@
+.bg_color {
+    background-color: #E5E5E5;
+    padding: 13.5% 0%;
+}
+
+.signin_page {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0px;
+    background-color: white;
+}
+
+.signin_page input {
+    width: 100%;
+}
+
+.signin {
+    display: flex;
+}
+
+.signin_page .form {
+    padding: 30px 15px;
+    margin: 0px;
+}
+
+.signin_page .form .col-12,
+.col-5,
+.col-7 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.signin_page .logo {
+    padding: 30px 15px;
+    margin: 0px;
+    background-color: #e0052b;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.signin_page .logo .img_logo {
+    margin: auto;
+    padding: 90px 0px;
+}
+
+.signin_page .form p {
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+.signin_page .form input {
+    padding: 0px 5px;
+    margin: 0px;
+    outline: none;
+    border: 0.5px solid #C7C7C7;
+}
+
+.signin_page .form button {
+    margin: 15px 0px;
+    width: 100%;
+    background-color: #e0052b;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 0px;
+    outline: none;
+}
+
+.signin_page .login_by {
+    text-align: center;
+}
+
+.signin_page .login_by i {
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+.signin_page .login_by a {
+    color: black;
+}
+
+.signin_page .login_by a:hover {
+    text-decoration: none;
+}

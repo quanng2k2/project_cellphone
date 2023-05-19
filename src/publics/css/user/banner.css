@@ -1,0 +1,45 @@
+.banner_user {
+    padding: 15px 0px;
+}
+
+.banner_user .nav {
+    float: left;
+}
+
+.banner_user .images {
+    float: left;
+    padding-left: 15px;
+}
+
+.banner_user .nav ul {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.banner_user .nav ul li {
+    padding: 3px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_user .nav ul li a {
+    color: black;
+}
+
+.banner_user .nav ul li i {
+    text-align: right;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.banner_user .nav ul li a:hover {
+    text-decoration: none;
+}
+
+.banner_user .nav ul li:hover {
+    background-color: #00B0D7;
+    border-radius: 7px;
+}

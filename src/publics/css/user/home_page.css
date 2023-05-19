@@ -1,0 +1,116 @@
+.pad {
+    padding: 0px;
+}
+
+h6 {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.home_page .article_user {
+    clear: both;
+    padding: 25px 0px;
+}
+
+.home_page .article_user .list_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home_page .article_user .list_products .container .image_products {
+    height: 230px;
+}
+
+.home_page .article_user .info_products .price_product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_page .article_user .info_products .price_product .price {
+    color: red;
+    font-size: 16px;
+}
+
+.home_page .article_user .info_products .price_product .price_sale {
+    color: #707070;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.home_page .article_user .info_products .desc_sort {
+    height: 65px;
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    border: 0.5px solid #E5E7EB;
+    padding: 5px;
+    font-size: 13px;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.home_page .article_user .info_products .vote {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_page .article_user .info_products .vote i {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.home_page .article_user .info_products .vote p {
+    font-size: 15px;
+}
+
+.home_page .access {
+    padding-top: 45px;
+}
+
+.home_page .access .list_access {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home_page .access .list_access .col-1 {
+    padding: 3px;
+}
+
+.home_page .access .list_access .info_access {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(60, 64, 67, 0.3);
+    border-radius: 10px;
+    height: 115px;
+}
+
+.home_page .access .list_access .info_access p {
+    position: absolute;
+    top: 0px;
+    font-size: 15px;
+}
+
+.home_page .access .list_access .info_access img {
+    opacity: 90%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 10px;
+}
+
+.title_access {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_products {
+    height: 50px;
+}

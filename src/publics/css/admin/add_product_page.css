@@ -1,0 +1,99 @@
+.container_admin .nav {
+    float: left;
+}
+
+.container_admin .article {
+    float: left;
+    padding: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: rgb(249 249 249);
+}
+
+.container_admin .article input,
+select,
+textarea {
+    border: 0.5px solid #E1E5EB;
+    border-radius: 3px;
+}
+
+.container_admin .article .images_products {
+    background-color: white;
+    float: left;
+    height: 100%;
+}
+
+.container_admin .article .images_products .input_file {
+    display: none;
+}
+
+.container_admin .article .images_products label {
+    padding: 75px 25px;
+    display: block;
+    text-align: center;
+}
+
+.container_admin .article .images_products label i {
+    font-size: 25px;
+    color: #00B0D7;
+}
+
+.container_admin .article .images_products textarea {
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.container_admin .article .info_products {
+    background-color: white;
+    float: left;
+    padding-left: 10px;
+}
+
+.container_admin .article .info_products p {
+    margin: 3px 0px;
+}
+
+.container_admin .article .info_products input {
+    width: 100%;
+    outline: none;
+    padding: 0px 5px;
+}
+
+.container_admin .article .info_products .price {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.container_admin .article .info_products .price input {
+    width: 95%;
+}
+
+.container_admin .article .info_products .col-6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container_admin .article .info_products select {
+    width: 95%;
+    outline: none;
+}
+
+.container_admin .article .info_products textarea {
+    width: 100%;
+    outline: none;
+}
+
+.container_admin .article .info_products button {
+    padding: 4px 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #00B0D7;
+    border: 0.5px solid #007BFF;
+    color: white;
+}

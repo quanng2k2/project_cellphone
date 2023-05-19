@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 25px;
+}
+
+.footer .top_footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.footer .container p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.footer .container .title {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.footer .bottom_footer {
+    background-color: #F8F8F8;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.footer .bottom_footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.footer .col-4 p {
+    text-align: left;
+}
